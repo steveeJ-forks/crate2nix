@@ -251,6 +251,12 @@ let
     }
 
     {
+      name = "bin_with_sysinfo";
+      src = ./sample_projects/bin_with_sysinfo;
+      expectedOutput = "Hello, bin_with_sysinfo!";
+    }
+
+    {
       name = "sample_workspace";
       src = ./sample_workspace;
       expectedOutput = "Hello, with_tera!";

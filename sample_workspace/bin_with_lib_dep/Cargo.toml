@@ -6,6 +6,7 @@ edition = "2018"
 
 [dependencies]
 "hello_world_lib" = { path = "../lib"}
+"custom_path_lib" = { path = "../lib_with_custom_path"}
 
 # Doesn't make sense but reproduces bug that filters
 # this dev dependency by accident.
